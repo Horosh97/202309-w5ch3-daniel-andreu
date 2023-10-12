@@ -1,4 +1,4 @@
-import GameOfThrones from "../GameOfThrones/GameOfThrones";
+import GameOfThrones from "../GameOfThrones/GameOfThrones.js";
 
 class Assessor extends GameOfThrones {
   advisedCharacter;

@@ -1,5 +1,4 @@
-import Fighter from "../Fighter/Fighter";
-import GameOfThrones from "../GameOfThrones/GameOfThrones";
+import GameOfThrones from "../GameOfThrones/GameOfThrones.js";
 
 class Squire extends GameOfThrones {
   servedCharacter;
@@ -11,10 +10,6 @@ class Squire extends GameOfThrones {
 
     if (toadyLvl >= 10 && toadyLvl <= 0) {
       this.toadyLvl = toadyLvl;
-    }
-
-    if (servedCharacter instanceof Fighter) {
-      this.servedCharacter = servedCharacter;
     }
   }
 }
