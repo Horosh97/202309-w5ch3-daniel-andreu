@@ -43,3 +43,7 @@ const getCharactersCommunicate = (characters) =>
 getCharactersCommunicate(characters).forEach((communicate) =>
   console.log(communicate),
 );
+
+jaimeLannister.die();
+
+tyrionLannister.die();
