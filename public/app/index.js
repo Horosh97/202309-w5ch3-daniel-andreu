@@ -1,7 +1,7 @@
-import King from "./King/King";
-import Fighter from "./Fighter/Fighter";
-import Assessor from "./Assessor/Assessor";
-import Squire from "./Squire/Squire";
+import King from "./King/King.js";
+import Fighter from "./Fighter/Fighter.js";
+import Assessor from "./Assessor/Assessor.js";
+import Squire from "./Squire/Squire.js";
 
 const joffreyBaratheon = new King("Joffrey Baratheon", "Baratheon", 480, true);
 const jaimeLannister = new Fighter(
@@ -36,3 +36,6 @@ const characters = [
   tyrionLannister,
   bronn,
 ];
+
+const getCharactersCommunicate = (characters) =>
+  characters.map((character) => character.communicate);
