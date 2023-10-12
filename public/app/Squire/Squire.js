@@ -1,4 +1,3 @@
-import Fighter from "../Fighter/Fighter";
 import GameOfThrones from "../GameOfThrones/GameOfThrones";
 
 class Squire extends GameOfThrones {
