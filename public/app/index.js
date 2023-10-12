@@ -28,3 +28,11 @@ const tyrionLannister = new Assessor(
   daenerysTargaryen,
 );
 const bronn = new Squire("bronn", "unkown", 44, true, jaimeLannister, 5);
+
+const characters = [
+  joffreyBaratheon,
+  jaimeLannister,
+  daenerysTargaryen,
+  tyrionLannister,
+  bronn,
+];
