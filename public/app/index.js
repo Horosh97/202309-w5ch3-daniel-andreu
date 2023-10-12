@@ -39,3 +39,7 @@ const characters = [
 
 const getCharactersCommunicate = (characters) =>
   characters.map((character) => character.communicate);
+
+getCharactersCommunicate(characters).forEach((communicate) =>
+  console.log(communicate),
+);
